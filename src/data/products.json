@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "name": "Rolex Submariner Date",
+    "model": "116610LN",
+    "description": "Orologio subacqueo di lusso con cassa in acciaio 904L, lunetta girevole unidirezionale e cinturino Oyster. Impermeabile fino a 300 metri.",
+    "price": "€ 12.500",
+    "year": "2018",
+    "condition": "Ottimo",
+    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=800&q=80",
+    "imageAlt": "Rolex Submariner Date 116610LN"
+  },
+  {
+    "id": 2,
+    "name": "Rolex Datejust 41",
+    "model": "126334",
+    "description": "Elegante orologio classico con cassa in acciaio e ghiera in oro bianco. Bracciale Jubilee e quadrante blu. Movimento automatico di precisione.",
+    "price": "€ 10.800",
+    "year": "2020",
+    "condition": "Come nuovo",
+    "image": "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=800&q=80",
+    "imageAlt": "Rolex Datejust 41 126334"
+  },
+  {
+    "id": 3,
+    "name": "Rolex GMT-Master II",
+    "model": "126710BLRO",
+    "description": "Iconico orologio da pilota con lunetta Cerachrom bicolore rosso e blu 'Pepsi'. Funzione GMT per secondo fuso orario. Bracciale Oyster.",
+    "price": "€ 18.900",
+    "year": "2019",
+    "condition": "Ottimo",
+    "image": "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=800&q=80",
+    "imageAlt": "Rolex GMT-Master II 126710BLRO"
+  },
+  {
+    "id": 4,
+    "name": "Rolex Daytona",
+    "model": "116500LN",
+    "description": "Cronografo sportivo per eccellenza con quadrante bianco e lunetta in ceramica nera. Movimento cronometro certificato COSC. Cinturino Oysterflex.",
+    "price": "€ 28.500",
+    "year": "2021",
+    "condition": "Come nuovo",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&q=80",
+    "imageAlt": "Rolex Daytona 116500LN"
+  },
+  {
+    "id": 5,
+    "name": "Rolex Oyster Perpetual",
+    "model": "124300",
+    "description": "Orologio classico e versatile con quadrante azzurro turquoise da 41mm. Essenziale ed elegante, perfetto per ogni occasione. Acciaio 904L.",
+    "price": "€ 8.200",
+    "year": "2020",
+    "condition": "Ottimo",
+    "image": "https://images.unsplash.com/photo-1611694444957-9f622459354c?w=800&q=80",
+    "imageAlt": "Rolex Oyster Perpetual 124300"
+  },
+  {
+    "id": 6,
+    "name": "Rolex Day-Date 40",
+    "model": "228238",
+    "description": "Prestigioso orologio in oro giallo 18ct con quadrante champagne. Bracciale President con chiusura Crownclasp. Display giorno e data.",
+    "price": "€ 32.000",
+    "year": "2019",
+    "condition": "Ottimo",
+    "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?w=800&q=80",
+    "imageAlt": "Rolex Day-Date 40 228238"
+  },
+  {
+    "id": 7,
+    "name": "Rolex Explorer II",
+    "model": "216570",
+    "description": "Robusto orologio per esploratori con quadrante bianco e lancetta GMT arancione. Cassa da 42mm in acciaio. Perfetto per avventure estreme.",
+    "price": "€ 9.500",
+    "year": "2017",
+    "condition": "Molto buono",
+    "image": "https://images.unsplash.com/photo-1639006570490-79c0c53f1080?w=800&q=80",
+    "imageAlt": "Rolex Explorer II 216570"
+  },
+  {
+    "id": 8,
+    "name": "Rolex Sea-Dweller",
+    "model": "126600",
+    "description": "Orologio subacqueo professionale impermeabile fino a 1220 metri. Cassa da 43mm con vetro zaffiro, valvola di decompressione dell'elio.",
+    "price": "€ 13.800",
+    "year": "2018",
+    "condition": "Ottimo",
+    "image": "https://images.unsplash.com/photo-1633292587904-b8c85ef9f259?w=800&q=80",
+    "imageAlt": "Rolex Sea-Dweller 126600"
+  }
+]
+

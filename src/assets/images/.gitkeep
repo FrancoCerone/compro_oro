@@ -1,0 +1,19 @@
+# Cartella per immagini locali
+
+Inserisci qui le immagini del logo, prodotti e altre risorse grafiche.
+
+## Struttura consigliata:
+
+- `logo.svg` - Logo aziendale vettoriale
+- `hero/` - Immagini per sezioni hero
+- `products/` - Foto prodotti alta risoluzione
+- `icons/` - Icone personalizzate (se necessarie)
+
+## Ottimizzazione immagini:
+
+Per prestazioni ottimali, assicurati che le immagini siano:
+- Formato WebP quando possibile
+- Dimensioni appropriate (max 1920px per hero images)
+- Compresse senza perdita di qualità significativa
+- Con nomi descrittivi (es: `rolex-submariner-116610ln.webp`)
+
