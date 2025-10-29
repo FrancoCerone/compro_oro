@@ -12,6 +12,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist -f"
   },
+  "export default": {
+    "base": "/compro_oro/"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
