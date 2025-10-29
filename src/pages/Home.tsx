@@ -20,7 +20,7 @@ const Home = () => {
         new (window as any).TradingView.widget({
           width: '100%',
           height: 200,
-          symbol: 'TVC:GOLD',
+          symbol: 'XAUEUR',
           interval: '60',
           timezone: 'Europe/Rome',
           theme: 'dark',               // Tema scuro
