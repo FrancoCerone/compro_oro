@@ -48,11 +48,11 @@ function AppContent() {
 }
 
 function App() {
-  return (
-    <Router>
-      <AppContent />
-    </Router>
-  )
+    return (
+        <Router basename="/compro_oro">
+            <AppContent />
+        </Router>
+    )
 }
 
 export default App
