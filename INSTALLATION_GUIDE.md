@@ -252,9 +252,9 @@ npm run lint
 
 ## 📞 Supporto
 
+
 Per problemi tecnici o domande:
-- Email: info@fedoroffgioielli.com
-- Telefono: +39 0584 123 456
+- Email: info@.com
 
 ---
 
