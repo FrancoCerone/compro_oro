@@ -20,7 +20,7 @@ const ComproOro = () => {
         className="relative bg-cover bg-center h-[400px] flex items-center"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1610375461246-83df859d849d?w=1600&q=80)',
+            'linear-gradient(rgba(32, 39, 36, 0.72), rgba(78, 88, 89, 0.58)), url(https://images.unsplash.com/photo-1610375461246-83df859d849d?w=1600&q=80)',
         }}
       >
         <div className="container-custom text-white">

@@ -20,7 +20,7 @@ const Gioielli = () => {
         className="relative bg-cover bg-center h-[400px] flex items-center"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1600&q=80)',
+            'linear-gradient(rgba(32, 39, 36, 0.72), rgba(78, 88, 89, 0.58)), url(https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1600&q=80)',
         }}
       >
         <div className="container-custom text-white">

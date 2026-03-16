@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
+import storefrontPalette from '../assets/images/storefront-palette.png'
 
 const Home = () => {
   useEffect(() => {
@@ -31,9 +32,9 @@ const Home = () => {
           hide_side_toolbar: true,     // Nasconde strumenti laterali
           withdateranges: false,       // Nasconde selezione intervallo
           allow_symbol_change: false,  // Blocca cambio simbolo
-          backgroundColor: '#000000',  // Sfondo nero
-          gridColor: '#1a1a1a',        // Griglia scura
-          lineColor: '#C5A466',        // Colore oro (accent-gold)
+          backgroundColor: '#202724',  // Sfondo in palette
+          gridColor: '#4E5859',        // Griglia in palette
+          lineColor: '#D4A15A',        // Colore oro in palette
           enable_publishing: false,
           show_popup_button: false,
           container_id: 'tradingview_chart'
@@ -58,7 +59,7 @@ const Home = () => {
         className="relative bg-cover bg-center h-[600px] flex items-center"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1610375461246-83df859d849d?w=1600&q=80)',
+            `linear-gradient(rgba(32, 39, 36, 0.72), rgba(32, 39, 36, 0.58)), url(${storefrontPalette})`,
         }}
       >
         <div className="container-custom text-white">
@@ -72,7 +73,7 @@ const Home = () => {
             <Link to="/compro-oro" className="btn-primary text-center">
               Vendi Oro
             </Link>
-            <Link to="/valutazione" className="btn-secondary text-center bg-transparent border-white text-white hover:bg-white hover:text-primary-dark">
+            <Link to="/valutazione" className="btn-secondary text-center bg-transparent border-accent-gold text-accent-gold hover:bg-accent-gold hover:text-primary-dark">
               Valutazione Gratuita
             </Link>
           </div>
@@ -276,7 +277,7 @@ const Home = () => {
             <Link to="/contatti" className="btn-primary inline-block">
               Contattaci Ora
             </Link>
-            <a href="tel:+39XXXXXXXXX" className="btn-secondary bg-transparent border-white text-white hover:bg-white hover:text-primary-dark inline-block">
+            <a href="tel:+39XXXXXXXXX" className="btn-secondary bg-transparent border-accent-gold text-accent-gold hover:bg-accent-gold hover:text-primary-dark inline-block">
               Chiamaci Ora
             </a>
           </div>

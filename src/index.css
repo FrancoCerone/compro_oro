@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-dark: #202724;
+  --color-dark-soft: #4e5859;
+  --color-stone: #787c77;
+  --color-stone-light: #9fa6a0;
+  --color-beige: #c6c4bc;
+  --color-white-soft: #f6f6f5;
+  --color-gold: #d4a15a;
+  --color-gold-strong: #c9973e;
+}
+
 /* Custom base styles */
 @layer base {
   html {
@@ -9,7 +20,7 @@
   }
   
   body {
-    @apply font-sans text-primary-dark antialiased;
+    @apply font-sans text-primary-dark antialiased bg-gray-50;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -24,19 +35,19 @@
   }
   
   .btn-primary {
-    @apply bg-accent-gold hover:bg-accent-gold-dark text-white font-medium px-6 py-2.5 rounded-md transition-colors duration-200;
+    @apply bg-accent-gold hover:bg-accent-gold-dark text-primary-dark font-semibold px-6 py-2.5 rounded-md transition-colors duration-200;
   }
   
   .btn-secondary {
-    @apply bg-transparent border-2 border-accent-gold text-accent-gold hover:bg-accent-gold hover:text-white font-medium px-6 py-2.5 rounded-md transition-all duration-200;
+    @apply bg-transparent border-2 border-accent-gold text-accent-gold hover:bg-accent-gold hover:text-primary-dark font-medium px-6 py-2.5 rounded-md transition-all duration-200;
   }
   
   .link-nav {
-    @apply text-gray-700 hover:text-accent-gold transition-colors duration-200 font-medium;
+    @apply text-primary-dark hover:text-accent-gold transition-colors duration-200 font-medium;
   }
   
   .social-icon {
-    @apply w-6 h-6 text-gray-600 hover:text-accent-gold transition-colors duration-200 cursor-pointer;
+    @apply w-6 h-6 text-gray-500 hover:text-accent-gold transition-colors duration-200 cursor-pointer;
   }
 }
 
