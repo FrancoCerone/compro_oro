@@ -133,7 +133,8 @@ const Contatti = () => {
                 Invia un <span className="text-accent-gold">Messaggio</span>
               </h2>
               
-              <form className="space-y-6">
+              <form  action="https://formspree.io/f/mpqovddn"
+                     method="POST" className="space-y-6">
                 {/* Name */}
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">

@@ -59,7 +59,7 @@ const Home = () => {
         className="relative bg-cover bg-center h-[600px] flex items-center"
         style={{
           backgroundImage:
-            `linear-gradient(rgba(32, 39, 36, 0.72), rgba(32, 39, 36, 0.58)), url(${storefrontPalette})`,
+            `linear-gradient(rgba(32, 39, 36, 0.72), rgba(32, 39, 36, 0.58)),  url(https://images.unsplash.com/photo-1610375461246-83df859d849d?w=1600&q=80)`,
         }}
       >
         <div className="container-custom text-white">
@@ -99,9 +99,9 @@ const Home = () => {
             I Nostri <span className="text-accent-gold">Servizi</span>
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Acquistiamo oro, argento, gioielli e orologi con valutazione professionale e pagamento immediato
+            Acquistiamo oro, argento, gioielli e orologi con valutazione professionale, anche a domicilio su appuntamento, e pagamento immediato
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             {/* Compro Oro */}
             <Link to="/compro-oro" className="group">
               <div className="bg-gray-50 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 h-full">
@@ -161,6 +161,21 @@ const Home = () => {
                 </p>
               </div>
             </Link>
+
+            {/* Valutazione a domicilio */}
+            <Link to="/valutazione" className="group">
+              <div className="bg-gray-50 rounded-lg p-6 text-center hover:shadow-xl transition-all duration-300 h-full border border-accent-gold/20">
+                <div className="w-16 h-16 bg-accent-gold/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-accent-gold/20 transition-colors">
+                  <svg className="w-8 h-8 text-accent-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                  </svg>
+                </div>
+                <h3 className="font-serif text-xl font-semibold mb-3 group-hover:text-accent-gold transition-colors">Valutazione a domicilio</h3>
+                <p className="text-gray-600 text-sm">
+                  Possiamo effettuare la valutazione direttamente a casa tua, con lo stesso standard di professionalità del negozio.
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -171,8 +186,21 @@ const Home = () => {
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-center mb-12">
             Perché Scegliere <span className="text-accent-gold">Noi</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Feature 1 */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Feature 1 — Crypto */}
+            <div className="text-center p-6">
+              <div className="w-16 h-16 bg-accent-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-accent-gold" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                  <path d="M5.5 13v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.5v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.084c1.992 0 3.416-1.033 3.416-2.82 0-1.502-1.007-2.323-2.186-2.44v-.088c.97-.242 1.683-.974 1.683-2.19C11.997 3.93 10.847 3 9.092 3H9V1.75a.25.25 0 0 0-.25-.25h-1a.25.25 0 0 0-.25.25V3h-.573V1.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25V3l-1.998.011a.25.25 0 0 0-.25.25v.989c0 .137.11.25.248.25l.755-.005a.75.75 0 0 1 .745.75v5.505a.75.75 0 0 1-.75.75l-.748.011a.25.25 0 0 0-.25.25v1c0 .138.112.25.25.25zm1.427-8.513h1.719c.906 0 1.438.498 1.438 1.312 0 .871-.575 1.362-1.877 1.362h-1.28zm0 4.051h1.84c1.137 0 1.756.58 1.756 1.524 0 .953-.626 1.45-2.158 1.45H6.927z" />
+                </svg>
+              </div>
+              <h3 className="font-serif text-xl font-semibold mb-3">Pagamenti in crypto</h3>
+              <p className="text-gray-600">
+                Accettiamo anche pagamenti in criptovalute, oltre al contante, per chi preferisce questa modalità.
+              </p>
+            </div>
+
+            {/* Feature 2 */}
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-accent-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-accent-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -185,7 +213,7 @@ const Home = () => {
               </p>
             </div>
 
-            {/* Feature 2 */}
+            {/* Feature 3 */}
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-accent-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-accent-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -198,7 +226,7 @@ const Home = () => {
               </p>
             </div>
 
-            {/* Feature 3 */}
+            {/* Feature 4 */}
             <div className="text-center p-6">
               <div className="w-16 h-16 bg-accent-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-accent-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -207,7 +235,7 @@ const Home = () => {
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">Professionalità e Riservatezza</h3>
               <p className="text-gray-600">
-                Oltre 30 anni di esperienza nel settore. Massima discrezione e professionalità in ogni transazione.
+                Massima discrezione e professionalità in ogni transazione.
               </p>
             </div>
           </div>

@@ -8,7 +8,7 @@ const Valutazione = () => {
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Valutazione gratuita e senza impegno per oro, argento, gioielli e orologi. Esperti professionisti, quotazioni competitive, pagamento immediato.'
+        'Valutazione gratuita e senza impegno per oro, argento, gioielli e orologi, in negozio o a domicilio su appuntamento. Esperti professionisti, quotazioni competitive, pagamento immediato.'
       )
     }
   }, [])
@@ -28,7 +28,7 @@ const Valutazione = () => {
             Valutazione <span className="text-accent-gold">Gratuita</span>
           </h1>
           <p className="text-xl md:text-2xl max-w-2xl">
-            Valutazione professionale senza impegno per tutti i tuoi oggetti preziosi
+            Valutazione professionale senza impegno per tutti i tuoi oggetti preziosi, in negozio o a domicilio su appuntamento
           </p>
         </div>
       </section>
@@ -43,7 +43,8 @@ const Valutazione = () => {
                 Servizio di <span className="text-accent-gold">Valutazione Professionale</span>
               </h2>
               <p className="text-gray-600 text-lg">
-                Offriamo valutazioni accurate e gratuite per oro, argento, gioielli e orologi di lusso
+                Offriamo valutazioni accurate e gratuite per oro, argento, gioielli e orologi di lusso. Puoi venire da noi oppure richiedere una{' '}
+                <strong className="text-primary-dark">valutazione a domicilio</strong>: fissiamo un appuntamento e il nostro team effettua il sopralluogo a casa tua con la stessa professionalità del negozio.
               </p>
             </div>
 
@@ -108,9 +109,9 @@ const Valutazione = () => {
                   <div className="w-12 h-12 bg-accent-gold text-primary-dark rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-3">
                     1
                   </div>
-                  <h4 className="font-semibold mb-2">Porta i Tuoi Oggetti</h4>
+                  <h4 className="font-semibold mb-2">In negozio o a domicilio</h4>
                   <p className="text-sm text-gray-300">
-                    Vieni nel nostro negozio con gli oggetti da valutare
+                    Porta gli oggetti in negozio oppure contattaci per fissare una valutazione a domicilio
                   </p>
                 </div>
                 <div className="text-center">
@@ -244,6 +245,22 @@ const Valutazione = () => {
                     </p>
                   </div>
                 </div>
+
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-12 h-12 bg-accent-gold/10 rounded-lg flex items-center justify-center">
+                      <svg className="w-6 h-6 text-accent-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-2">Valutazione a domicilio</h4>
+                    <p className="text-gray-600 text-sm">
+                      Su appuntamento possiamo recarci al tuo indirizzo per la valutazione, comoda se preferisci non spostarti o hai oggetti ingombranti.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -277,6 +294,9 @@ const Valutazione = () => {
                 <p className="text-sm text-gray-500 mt-4 italic">
                   Nota: anche senza certificati o scatole possiamo comunque valutare i tuoi oggetti.
                 </p>
+                <p className="text-sm text-gray-600 mt-4">
+                  Per le <strong>valutazioni a domicilio</strong> si applicano gli stessi criteri: documento d&apos;identità obbligatorio e disponibilità degli oggetti da esaminare durante l&apos;appuntamento.
+                </p>
               </div>
             </div>
 
@@ -287,7 +307,7 @@ const Valutazione = () => {
               </h3>
               <p className="mb-6 text-gray-600 max-w-2xl mx-auto">
                 Siamo aperti dal lunedì al venerdì dalle 9:00 alle 19:00 e il sabato dalle 9:00 alle 13:00.
-                Vieni a trovarci nel nostro negozio.
+                Vieni a trovarci nel nostro negozio, oppure scrivici o chiamaci per concordare una valutazione a domicilio.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contatti" className="btn-primary">
