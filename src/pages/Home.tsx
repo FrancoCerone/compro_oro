@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
-import storefrontPalette from '../assets/images/storefront-palette.png'
 
 const Home = () => {
   useEffect(() => {
