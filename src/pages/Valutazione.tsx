@@ -306,14 +306,14 @@ const Valutazione = () => {
                 Richiedi la Tua <span className="text-accent-gold">Valutazione Gratuita</span>
               </h3>
               <p className="mb-6 text-gray-600 max-w-2xl mx-auto">
-                Siamo aperti dal lunedì al venerdì dalle 9:00 alle 19:00 e il sabato dalle 9:00 alle 13:00.
+                Lunedì: 16:00 - 20:00 · Martedì - Sabato: 09:00 - 13:30 / 16:00 - 20:00 · Domenica chiuso.
                 Vieni a trovarci nel nostro negozio, oppure scrivici o chiamaci per concordare una valutazione a domicilio.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contatti" className="btn-primary">
                   Dove Siamo
                 </Link>
-                <a href="tel:+39XXXXXXXXX" className="btn-secondary">
+                <a href="tel:+390572763365" className="btn-secondary">
                   Chiamaci Ora
                 </a>
               </div>

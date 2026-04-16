@@ -58,7 +58,7 @@ const Home = () => {
         className="relative bg-cover bg-center h-[600px] flex items-center"
         style={{
           backgroundImage:
-            `linear-gradient(rgba(32, 39, 36, 0.72), rgba(32, 39, 36, 0.58)),  url(https://images.unsplash.com/photo-1610375461246-83df859d849d?w=1600&q=80)`,
+            `linear-gradient(rgba(32, 39, 36, 0.72), rgba(32, 39, 36, 0.58)),  url(https://plus.unsplash.com/premium_photo-1674748385760-d846825598ab?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
         }}
       >
         <div className="container-custom text-white">
@@ -304,7 +304,7 @@ const Home = () => {
             <Link to="/contatti" className="btn-primary inline-block">
               Contattaci Ora
             </Link>
-            <a href="tel:+39XXXXXXXXX" className="btn-secondary bg-transparent border-accent-gold text-accent-gold hover:bg-accent-gold hover:text-primary-dark inline-block">
+            <a href="tel:+390572763365" className="btn-secondary bg-transparent border-accent-gold text-accent-gold hover:bg-accent-gold hover:text-primary-dark inline-block">
               Chiamaci Ora
             </a>
           </div>

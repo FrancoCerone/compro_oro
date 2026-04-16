@@ -47,8 +47,8 @@ const Contatti = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Indirizzo</h3>
-                    <p className="text-gray-600">Via [Indirizzo da definire]</p>
-                    <p className="text-gray-600">[Città, Provincia]</p>
+                    <p className="text-gray-600">Viale Verdi 42A</p>
+                    <p className="text-gray-600">Montecatini Terme (PT)</p>
                     <p className="text-gray-600">Italia</p>
                   </div>
                 </div>
@@ -62,10 +62,27 @@ const Contatti = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Telefono</h3>
-                    <a href="tel:+39XXXXXXXXX" className="text-gray-600 hover:text-accent-gold transition-colors">
-                      +39 XXX XXX XXXX
+                    <a href="tel:+390572763365" className="text-gray-600 hover:text-accent-gold transition-colors">
+                      0572 763365
                     </a>
-                    <p className="text-sm text-gray-500 mt-1">Lun-Ven: 9:00 - 19:00</p>
+                    <p className="text-sm text-gray-500 mt-1">
+                      Lunedì: 16:00 - 20:00 · Martedì - Sabato: 09:00 - 13:30 / 16:00 - 20:00
+                    </p>
+                  </div>
+                </div>
+
+                {/* Cellulare */}
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-accent-gold/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-accent-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg mb-1">Cellulare</h3>
+                    <a href="tel:+393342642365" className="text-gray-600 hover:text-accent-gold transition-colors">
+                      334 264 2365
+                    </a>
                   </div>
                 </div>
 
@@ -78,8 +95,8 @@ const Contatti = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Email</h3>
-                    <a href="mailto:info@example.com" className="text-gray-600 hover:text-accent-gold transition-colors">
-                      info@example.com
+                    <a href="mailto:giupigold2026@gmail.com" className="text-gray-600 hover:text-accent-gold transition-colors">
+                      giupigold2026@gmail.com
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Risposta entro 24 ore</p>
                   </div>
@@ -94,8 +111,8 @@ const Contatti = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">WhatsApp</h3>
-                    <a href="https://wa.me/39XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-accent-gold transition-colors">
-                      +39 XXX XXX XXXX
+                    <a href="https://wa.me/393342642365" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-accent-gold transition-colors">
+                      334 264 2365
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Messaggia ora</p>
                   </div>
@@ -109,12 +126,12 @@ const Contatti = () => {
                 </h3>
                 <div className="space-y-2 text-gray-700">
                   <div className="flex justify-between">
-                    <span>Lunedì - Venerdì:</span>
-                    <span className="font-medium">9:00 - 13:00 / 15:00 - 19:00</span>
+                    <span>Lunedì:</span>
+                    <span className="font-medium">16:00 - 20:00</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Sabato:</span>
-                    <span className="font-medium">9:00 - 13:00</span>
+                    <span>Martedì - Sabato:</span>
+                    <span className="font-medium">09:00 - 13:30 / 16:00 - 20:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Domenica:</span>
@@ -253,25 +270,26 @@ const Contatti = () => {
           <h2 className="font-serif text-3xl font-bold mb-8 text-center">
             Come <span className="text-accent-gold">Raggiungerci</span>
           </h2>
-          {/* Placeholder per mappa - TODO: Integrare Google Maps o OpenStreetMap */}
-            <div className="bg-gray-300 rounded-lg h-96 flex items-center justify-center">
-            <div className="text-center text-gray-600">
-              <svg className="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-              <p className="text-lg font-medium">
-                Via [Indirizzo da definire]
-              </p>
-              <p className="text-sm mt-2">
-                TODO: Integrare Google Maps con le coordinate esatte
-              </p>
-            </div>
+          <p className="text-center text-gray-600 mb-6 max-w-2xl mx-auto">
+            Viale Verdi 42A, Montecatini Terme (PT)
+          </p>
+          {/* Embed Google Maps: nessuna API key (solo iframe con query) */}
+          <div className="relative w-full overflow-hidden rounded-lg shadow-md bg-gray-200 aspect-[16/10] min-h-[280px] max-h-[480px]">
+            <iframe
+              title="Mappa: Viale Verdi 42A, Montecatini Terme"
+              src="https://www.google.com/maps?q=Viale+Verdi+42A+Montecatini+Terme+PT+Italia&output=embed"
+              className="absolute inset-0 h-full w-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+            />
           </div>
           <div className="text-center mt-6">
             <a
-              href="#"
-              className="btn-secondary inline-block opacity-50 cursor-not-allowed"
+              href="https://www.google.com/maps/search/?api=1&query=Viale+Verdi+42A+Montecatini+Terme+Italia"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary inline-block"
             >
               Apri in Google Maps
             </a>

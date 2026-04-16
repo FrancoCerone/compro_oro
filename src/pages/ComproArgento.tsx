@@ -20,7 +20,7 @@ const ComproArgento = () => {
         className="relative bg-cover bg-center h-[400px] flex items-center"
         style={{
           backgroundImage:
-            'linear-gradient(rgba(32, 39, 36, 0.72), rgba(78, 88, 89, 0.58)), url(https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=1600&q=80)',
+            'linear-gradient(rgba(32, 39, 36, 0.72), rgba(78, 88, 89, 0.58)), url(https://images.unsplash.com/photo-1559843839-68a03f1db2b2?q=80&w=1001&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=1600&q=80)',
         }}
       >
         <div className="container-custom text-white">

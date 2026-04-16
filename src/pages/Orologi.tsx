@@ -17,8 +17,14 @@ const Orologi = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Page Header */}
-      <section className="bg-primary-dark text-white py-16">
-        <div className="container-custom">
+      <section
+        className="relative text-white py-16 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage:
+            'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1649357585015-179ed98f513d?q=80&w=1452&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+        }}
+      >
+        <div className="container-custom relative z-10">
           <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">
             Compro Orologi <span className="text-accent-gold">di Lusso</span>
           </h1>
