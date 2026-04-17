@@ -95,8 +95,8 @@ const Contatti = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Email</h3>
-                    <a href="mailto:giupigold2026@gmail.com" className="text-gray-600 hover:text-accent-gold transition-colors">
-                      giupigold2026@gmail.com
+                    <a href="mailto:bancovalori@gmail.com" className="text-gray-600 hover:text-accent-gold transition-colors">
+                      bancovalori@gmail.com
                     </a>
                     <p className="text-sm text-gray-500 mt-1">Risposta entro 24 ore</p>
                   </div>
@@ -150,7 +150,7 @@ const Contatti = () => {
                 Invia un <span className="text-accent-gold">Messaggio</span>
               </h2>
               
-              <form  action="https://formspree.io/f/mpqovddn"
+              <form  action="https://formspree.io/f/xeevgara"
                      method="POST" className="space-y-6">
                 {/* Name */}
                 <div>
