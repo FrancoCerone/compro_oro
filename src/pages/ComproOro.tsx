@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const ComproOro = () => {
   useEffect(() => {
-    document.title = 'Compro Oro - Quotazioni Migliori e Pagamento Immediato'
+    document.title = 'Banco Valori - Compro Oro | Quotazioni Migliori e Pagamento Immediato'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Compro oro usato. Valutazione gratuita con bilancia certificata, quotazioni al miglior prezzo di mercato. Pagamento immediato in contanti.'
+        'Banco Valori compra oro usato con valutazione gratuita, bilancia certificata e quotazioni al miglior prezzo di mercato. Pagamento immediato in contanti.'
       )
     }
   }, [])
@@ -152,7 +152,7 @@ const ComproOro = () => {
             {/* Why Sell Gold */}
             <div className="mb-12">
               <h3 className="font-serif text-2xl font-bold mb-6 text-center">
-                Perché Vendere l'Oro <span className="text-accent-gold">da Noi</span>
+                Perché Vendere l'Oro <span className="text-accent-gold">a Banco Valori</span>
               </h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="flex gap-4">

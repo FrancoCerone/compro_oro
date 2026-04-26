@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Gioielli = () => {
   useEffect(() => {
-    document.title = 'Compro Gioielli - Valutazione Professionale'
+    document.title = 'Banco Valori - Compro Gioielli | Valutazione Professionale'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Compriamo gioielli in oro, argento, con pietre preziose. Valutazione da esperti gemmologi, quotazioni migliori e pagamento immediato.'
+        'Banco Valori acquista gioielli in oro, argento e con pietre preziose. Valutazione da esperti gemmologi, quotazioni migliori e pagamento immediato.'
       )
     }
   }, [])
@@ -226,7 +226,7 @@ const Gioielli = () => {
             {/* Why Sell Jewelry */}
             <div className="bg-gray-50 rounded-lg p-8 mb-12">
               <h3 className="font-serif text-2xl font-bold mb-6 text-center">
-                Vantaggi di Vendere <span className="text-accent-gold">da Noi</span>
+                Vantaggi di Vendere <span className="text-accent-gold">a Banco Valori</span>
               </h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">

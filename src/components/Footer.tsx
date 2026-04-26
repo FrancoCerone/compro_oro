@@ -6,7 +6,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-serif font-bold mb-3">
-              <span className="text-accent-gold">Compro</span> Oro
+              <span className="text-accent-gold">Banco</span> Valori
             </h3>
             <p className="text-gray-300 text-sm mb-2">
               Compriamo oro, argento, gioielli e orologi usati. Valutazione gratuita e pagamento immediato.
@@ -94,7 +94,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-6 text-center">
           <p className="text-sm text-gray-400">
-            © 2025 Compro Oro – Tutti i diritti riservati
+            © 2025 Banco Valori – Tutti i diritti riservati
           </p>
         </div>
       </div>

@@ -2,12 +2,12 @@ import { useEffect } from 'react'
 
 const Contatti = () => {
   useEffect(() => {
-    document.title = 'Contatti - Compro Oro'
+    document.title = 'Contatti - Banco Valori'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Contatta il nostro Compro Oro. Valutazione gratuita oro, argento, gioielli e orologi. Telefono, email, orari di apertura.'
+        'Contatta Banco Valori. Valutazione gratuita di oro, argento, gioielli e orologi. Telefono, email e orari di apertura.'
       )
     }
   }, [])

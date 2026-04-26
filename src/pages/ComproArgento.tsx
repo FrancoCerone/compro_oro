@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const ComproArgento = () => {
   useEffect(() => {
-    document.title = 'Compro Argento - Valutazione e Pagamento Immediato'
+    document.title = 'Banco Valori - Compro Argento | Valutazione e Pagamento Immediato'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Compro argento 925, 800 e argenteria. Valutazione gratuita basata sulle quotazioni di mercato. Pagamento immediato in contanti.'
+        'Banco Valori compra argento 925, 800 e argenteria. Valutazione gratuita basata sulle quotazioni di mercato. Pagamento immediato in contanti.'
       )
     }
   }, [])
@@ -149,7 +149,7 @@ const ComproArgento = () => {
             {/* Benefits */}
             <div className="mb-12">
               <h3 className="font-serif text-2xl font-bold mb-6 text-center">
-                Perché Vendere l'Argento <span className="text-accent-gold">da Noi</span>
+                Perché Vendere l'Argento <span className="text-accent-gold">a Banco Valori</span>
               </h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="flex gap-4">

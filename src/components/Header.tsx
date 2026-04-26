@@ -56,7 +56,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <div className="text-2xl md:text-3xl font-serif font-bold text-primary-dark">
-              <span className="text-accent-gold">Compro</span> Oro
+              <span className="text-accent-gold">Banco</span> Valori
             </div>
           </Link>
 

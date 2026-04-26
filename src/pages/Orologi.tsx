@@ -4,12 +4,12 @@ import productsData from '../data/products.json'
 
 const Orologi = () => {
   useEffect(() => {
-    document.title = 'Compro Orologi Usati Rolex - Valutazione e Pagamento'
+    document.title = 'Banco Valori - Compro Orologi Usati Rolex | Valutazione e Pagamento'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Acquistiamo orologi usati Rolex, Omega, Cartier. Valutazione professionale, quotazioni competitive e pagamento immediato in contanti.'
+        'Banco Valori acquista orologi usati Rolex, Omega e Cartier. Valutazione professionale, quotazioni competitive e pagamento immediato in contanti.'
       )
     }
   }, [])
@@ -70,7 +70,7 @@ const Orologi = () => {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="font-serif text-3xl font-bold mb-6">
-              Perché Vendere il Tuo <span className="text-accent-gold">Orologio da Noi</span>
+              Perché Vendere il Tuo <span className="text-accent-gold">Orologio a Banco Valori</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div className="p-6 bg-gray-50 rounded-lg">

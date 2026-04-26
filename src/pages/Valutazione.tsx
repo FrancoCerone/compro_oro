@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Valutazione = () => {
   useEffect(() => {
-    document.title = 'Valutazione Gratuita - Compro Oro'
+    document.title = 'Banco Valori - Valutazione Gratuita'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Valutazione gratuita e senza impegno per oro, argento, gioielli e orologi, in negozio o a domicilio su appuntamento. Esperti professionisti, quotazioni competitive, pagamento immediato.'
+        'Banco Valori offre valutazione gratuita e senza impegno per oro, argento, gioielli e orologi, in negozio o a domicilio su appuntamento. Esperti professionisti, quotazioni competitive e pagamento immediato.'
       )
     }
   }, [])

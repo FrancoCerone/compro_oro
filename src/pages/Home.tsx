@@ -3,12 +3,12 @@ import { useEffect } from 'react'
 
 const Home = () => {
   useEffect(() => {
-    document.title = 'Compro Oro - Valutazione Gratuita e Pagamento Immediato'
+    document.title = 'Banco Valori - Valutazione Gratuita e Pagamento Immediato'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
       metaDescription.setAttribute(
         'content',
-        'Compro oro, argento, gioielli e orologi usati. Valutazione gratuita, quotazioni migliori e pagamento immediato in contanti.'
+        'Banco Valori acquista oro, argento, gioielli e orologi usati. Valutazione gratuita, quotazioni migliori e pagamento immediato in contanti.'
       )
     }
 
@@ -63,7 +63,7 @@ const Home = () => {
       >
         <div className="container-custom text-white">
           <h1 className="font-serif text-4xl md:text-6xl font-bold mb-6 text-balance">
-            Compro <span className="text-accent-gold">Oro</span>
+            Banco <span className="text-accent-gold">Valori</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl text-balance">
             Valutazione gratuita, quotazioni al miglior prezzo di mercato e pagamento immediato in contanti
