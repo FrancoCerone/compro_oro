@@ -1,6 +1,4 @@
 import { useEffect } from 'react'
-import ProductGrid from '../components/ProductGrid'
-import productsData from '../data/products.json'
 
 const Orologi = () => {
   useEffect(() => {
@@ -35,33 +33,56 @@ const Orologi = () => {
         </div>
       </section>
 
-      {/* Filters Section - TODO: Implementare filtri funzionali */}
-      <section className="bg-white border-b py-6">
+      {/* Store Description */}
+      <section className="py-12 bg-white">
         <div className="container-custom">
-          <div className="flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
-            <div className="flex items-center gap-2 text-gray-600">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
-              </svg>
-              <span className="font-medium">{productsData.length} Orologi Disponibili</span>
-            </div>
-            {/* TODO: Aggiungere filtri per modello, anno, prezzo, etc. */}
-            <div className="flex gap-2">
-              <select className="px-4 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-accent-gold">
-                <option>Ordina per: Più Recenti</option>
-                <option>Prezzo: Crescente</option>
-                <option>Prezzo: Decrescente</option>
-                <option>Anno: Più Recenti</option>
-              </select>
-            </div>
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">
+              Acquistiamo Orologi <span className="text-accent-gold">Usati di Pregio</span>
+            </h2>
+            <p className="text-gray-700 text-lg mb-4">
+              Nel nostro negozio acquistiamo orologi usati e vintage delle principali marche, anche con segni di usura,
+              purché autentici e in condizioni idonee alla valutazione.
+            </p>
+            <p className="text-gray-600">
+              Porta il tuo orologio in sede: controlliamo autenticità, stato, referenza e quotazione di mercato, poi ti
+              facciamo una proposta chiara e senza impegno.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Products Grid */}
-      <section className="py-12">
+      {/* Photo Showcase */}
+      <section className="py-12 bg-gray-50">
         <div className="container-custom">
-          <ProductGrid products={productsData} />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <div className="rounded-xl overflow-hidden shadow-md bg-white">
+              <img
+                src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=1400&auto=format&fit=crop"
+                alt="Valutazione professionale di orologio in negozio"
+                className="w-full h-72 object-cover"
+                loading="lazy"
+              />
+              <div className="p-4">
+                <p className="text-sm text-gray-600">
+                  Valutazione professionale in negozio, con verifica di originalità e condizioni.
+                </p>
+              </div>
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-md bg-white">
+              <img
+                src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1400&auto=format&fit=crop"
+                alt="Orologi di lusso usati pronti per la valutazione"
+                className="w-full h-72 object-cover"
+                loading="lazy"
+              />
+              <div className="p-4">
+                <p className="text-sm text-gray-600">
+                  Acquistiamo orologi di lusso usati di diversi marchi e fasce di valore.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
