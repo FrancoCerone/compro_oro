@@ -49,7 +49,7 @@ function AppContent() {
 
 function App() {
     return (
-        <Router basename="/compro_oro">
+        <Router basename="/">
             <AppContent />
         </Router>
     )
